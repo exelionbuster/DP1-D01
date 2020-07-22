@@ -302,13 +302,14 @@ has v</panel_attributes>
       <x>203</x>
       <y>266</y>
       <w>224</w>
-      <h>70</h>
+      <h>84</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 FernandezBulletin
 --
 + moment: Date {Temporal(TIMESTAMP), Past}
 + author: String {NotBlank}
++ text: String {NotBlank}
 + favouriteSong: String {NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>

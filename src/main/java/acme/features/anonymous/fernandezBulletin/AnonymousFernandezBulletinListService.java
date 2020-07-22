@@ -17,7 +17,7 @@ import java.util.Collection;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.FernandezBulletins.FernandezBulletin;
+import acme.entities.bulletins.FernandezBulletin;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
 import acme.framework.entities.Anonymous;
@@ -58,7 +58,7 @@ public class AnonymousFernandezBulletinListService implements AbstractListServic
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "author", "favouriteSong", "moment");
+		request.unbind(entity, model, "author", "text", "favouriteSong", "moment");
 
 	}
 

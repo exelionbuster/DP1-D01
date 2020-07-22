@@ -17,7 +17,7 @@ import java.util.Date;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.FernandezBulletins.FernandezBulletin;
+import acme.entities.bulletins.FernandezBulletin;
 import acme.framework.components.Errors;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
@@ -64,7 +64,7 @@ public class AnonymousFernandezBulletinCreateService implements AbstractCreateSe
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "author", "favouriteSong");
+		request.unbind(entity, model, "author", "text", "favouriteSong");
 
 	}
 

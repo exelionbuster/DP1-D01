@@ -18,8 +18,10 @@
 
 <acme:list readonly="true">
 	<acme:list-column code="anonymous.fernandezBulletin.list.label.moment" path="moment" width="20%"/>
-	<acme:list-column code="anonymous.fernandezBulletin.list.label.author" path="author" width="40%"/>
-	<acme:list-column code="anonymous.fernandezBulletin.list.label.favouriteSong" path="favouriteSong" width="40%"/>		
+	<acme:list-column code="anonymous.fernandezBulletin.list.label.author" path="author" width="20%"/>
+	<acme:list-column code="anonymous.fernandezBulletin.list.label.favouriteSong" path="favouriteSong" width="20%"/>	
+	<acme:list-column code="anonymous.fernandezBulletin.list.label.text" path="text" width="40%"/>
+	
 </acme:list>
 
 

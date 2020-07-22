@@ -19,11 +19,11 @@
 <tiles-definitions>
 
 	<definition name="anonymous/fernandez-bulletin/form" extends="master">
-		<put-attribute name="body" type="template" value="../anonymous/fernandezBulletin/form.jsp" />
+		<put-attribute name="body" type="template" value="../anonymous/fernandez-bulletin/form.jsp" />
 	</definition>
 	
 	<definition name="anonymous/fernandez-bulletin/list" extends="master">
-		<put-attribute name="body" type="template" value="../anonymous/fernandezBulletin/list.jsp" />
+		<put-attribute name="body" type="template" value="../anonymous/fernandez-bulletin/list.jsp" />
 	</definition>
 
 </tiles-definitions>

@@ -10,9 +10,11 @@
 
 anonymous.fernandezBulletin.form.label.author = Author:
 anonymous.fernandezBulletin.form.label.favouriteSong = Favourite song:
+anonymous.fernandezBulletin.form.label.text = Text:
 anonymous.fernandezBulletin.form.button.create = Create
 anonymous.fernandezBulletin.form.button.return = Return
 
-anonymous.fernandezBulletin.list.label.moment = Moment:
-anonymous.fernandezBulletin.list.label.author = Author:
-anonymous.fernandezBulletin.list.label.favouriteSong = Favourite song:
+anonymous.fernandezBulletin.list.label.moment = Moment
+anonymous.fernandezBulletin.list.label.author = Author
+anonymous.fernandezBulletin.list.label.text = Text
+anonymous.fernandezBulletin.list.label.favouriteSong = Favourite song

@@ -17,7 +17,7 @@ import java.util.Collection;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import acme.entities.FernandezBulletins.FernandezBulletin;
+import acme.entities.bulletins.FernandezBulletin;
 import acme.framework.repositories.AbstractRepository;
 
 @Repository

@@ -1,5 +1,5 @@
 
-package acme.entities.FernandezBulletins;
+package acme.entities.bulletins;
 
 import java.util.Date;
 
@@ -26,6 +26,9 @@ public class FernandezBulletin extends DomainEntity {
 
 	@NotBlank
 	private String				author;
+
+	@NotBlank
+	private String				text;
 
 	@NotBlank
 	private String				favouriteSong;

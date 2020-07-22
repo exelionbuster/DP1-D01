@@ -18,6 +18,7 @@
 <acme:form>
 	<acme:form-textbox code="anonymous.fernandezBulletin.form.label.author" path="author"/>
 	<acme:form-textbox code="anonymous.fernandezBulletin.form.label.favouriteSong" path="favouriteSong"/>
+	<acme:form-textarea code="anonymous.fernandezBulletin.form.label.text" path="text"/>
 
 	<acme:form-submit code="anonymous.fernandezBulletin.form.button.create" action="/anonymous/fernandez-bulletin/create"/>
   	<acme:form-return code="anonymous.fernandezBulletin.form.button.return"/>
