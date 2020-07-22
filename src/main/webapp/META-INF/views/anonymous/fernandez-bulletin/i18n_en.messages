@@ -1,0 +1,20 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+anonymous.fernandezBulletin.form.label.author = Author:
+anonymous.fernandezBulletin.form.label.favouriteSong = Favourite song:
+anonymous.fernandezBulletin.form.label.text = Text:
+anonymous.fernandezBulletin.form.button.create = Create
+anonymous.fernandezBulletin.form.button.return = Return
+
+anonymous.fernandezBulletin.list.label.moment = Moment
+anonymous.fernandezBulletin.list.label.author = Author
+anonymous.fernandezBulletin.list.label.text = Text
+anonymous.fernandezBulletin.list.label.favouriteSong = Favourite song
