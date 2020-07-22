@@ -23,6 +23,8 @@
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link2" action="https://github.com/Albert0led0"/>
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link1" action="https://github.com/ManuelAles"/>
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link0" action="https://github.com/adrferfer"/>
+			<acme:menu-suboption code="master.menu.anonymous.bulletin-bonacini.create" action="/anonymous/bonacini-bulletin/create"/>
+			<acme:menu-suboption code="master.menu.anonymous.bulletin-bonacini.list" action="/anonymous/bonacini-bulletin/list"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
