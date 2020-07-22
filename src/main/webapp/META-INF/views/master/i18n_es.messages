@@ -32,6 +32,8 @@ master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-link2 = Enlace de Alberto
 master.menu.anonymous.favourite-link1 = Enlace de Manuel
 master.menu.anonymous.favourite-link0 = Enlace de Adrián
+master.menu.anonymous.listar-toledo-bulletin = Boletines de Toledo
+master.menu.anonymous.crear-toledo-bulletin = Crear un boletín para Toledo
 
 # master.menu.administrator ###################################################
 

@@ -16,5 +16,27 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<import resource="conversion-service.xml" />
+	
+	<!-- ToledoBulletins -->
+    <bean id="ToledoBulletin01"	class="acme.entities.bulletins.ToledoBulletin">
+		    <property name="author" value="Alberto Toledo Mayorga" />
+		    <property name="text" value="Estoy feliz, prueba 1" />
+		    <property name="moment" value="2020/07/22 17:46" />
+		    <property name="email" value="email@prueba1.com" />
+	  </bean>
+	
+	  <bean id="ToledoBulletin02"	class="acme.entities.bulletins.ToledoBulletin">
+		    <property name="author" value="Alberto Toledo Mayorga" />
+		    <property name="text" value="Estoy muy feliz, prueba 2" />
+		    <property name="moment" value="2020/07/22 17:47" />
+		    <property name="email" value="email@prueba2.com" />
+	  </bean>
+	  
+	  <bean id="ToledoBulletin03"	class="acme.entities.bulletins.ToledoBulletin">
+		    <property name="author" value="Alberto Toledo Mayorga" />
+		    <property name="text" value="Estoy muy, pero que muy feliz, prueba 3" />
+		    <property name="moment" value="2020/07/22 17:48" />
+		    <property name="email" value="email@prueba3.com" />
+	  </bean>
 
 </beans>
