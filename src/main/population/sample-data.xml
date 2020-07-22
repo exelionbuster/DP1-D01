@@ -16,5 +16,19 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<import resource="conversion-service.xml" />
+	
+	<!-- FernandezBulletins -->
+	
+	<bean id="fernandezBulletin01" class="acme.entities.FernandezBulletins.FernandezBulletin">
+		<property name="author" value="Espartaco"/>
+		<property name="favouriteSong" value="POP SMOKE - DIOR"/>
+		<property name="moment" value="2020/05/05 15:45"/>		
+	</bean>
+	
+	<bean id="fernandezBulletin02" class="acme.entities.FernandezBulletins.FernandezBulletin">
+		<property name="author" value="Lagarto Juancho"/>
+		<property name="favouriteSong" value="JACKBOYS, Pop Smoke, Travis Scott - GATTI"/>
+		<property name="moment" value="2020/06/05 17:40"/>		
+	</bean>
 
 </beans>
