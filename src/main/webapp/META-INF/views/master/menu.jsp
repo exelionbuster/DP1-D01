@@ -21,6 +21,9 @@
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link1" action="https://github.com/ManuelAles"/>
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link0" action="https://github.com/adrferfer"/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.anonymous.ales-bulletin.list" action="/anonymous/ales-bulletin/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.ales-bulletin.create" action="/anonymous/ales-bulletin/create"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">

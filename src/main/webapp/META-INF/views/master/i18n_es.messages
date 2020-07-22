@@ -31,6 +31,8 @@ master.menu.sign-out = Salir
 master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-link1 = Enlace de Manuel
 master.menu.anonymous.favourite-link0 = Enlace de Adrián
+master.menu.anonymous.ales-bulletin.list = Listar los Boletines de Alés
+master.menu.anonymous.ales-bulletin.create = Crear un Boletín de Alés
 
 # master.menu.administrator ###################################################
 
