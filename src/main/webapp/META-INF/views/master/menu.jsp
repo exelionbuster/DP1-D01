@@ -19,19 +19,23 @@
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
-			<acme:menu-suboption code="master.menu.anonymous.favourite-link-luca" action="https://github.com/exelionbuster"/>
-			<acme:menu-suboption code="master.menu.anonymous.favourite-link2" action="https://github.com/Albert0led0"/>
-			<acme:menu-suboption code="master.menu.anonymous.favourite-link1" action="https://github.com/ManuelAles"/>
-			<acme:menu-suboption code="master.menu.anonymous.favourite-link0" action="https://github.com/adrferfer"/
+			<acme:menu-suboption code="master.menu.anonymous.favourite-link.adri" action="https://github.com/adrferfer"/>
+			<acme:menu-suboption code="master.menu.anonymous.favourite-link.alberto" action="https://github.com/Albert0led0"/>
+			<acme:menu-suboption code="master.menu.anonymous.favourite-link.luca" action="https://github.com/exelionbuster"/>
+			<acme:menu-suboption code="master.menu.anonymous.favourite-link.manuel" action="https://github.com/ManuelAles"/>
 			<acme:menu-separator/>
-			<acme:menu-suboption code="master.menu.anonymous.fernandez-bulletin.list" action="/anonymous/fernandez-bulletin/list"/>
-			<acme:menu-suboption code="master.menu.anonymous.fernandez-bulletin.create" action="/anonymous/fernandez-bulletin/create"/>
-      <acme:menu-suboption code="master.menu.anonymous.listar-toledo-bulletin" action="/anonymous/toledo-bulletin/list"/>
-      <acme:menu-suboption code="master.menu.anonymous.crear-toledo-bulletin" action="/anonymous/toledo-bulletin/create"/>
-      <acme:menu-suboption code="master.menu.anonymous.bulletin-bonacini.create" action="/anonymous/bonacini-bulletin/create"/>
-			<acme:menu-suboption code="master.menu.anonymous.bulletin-bonacini.list" action="/anonymous/bonacini-bulletin/list"/>
-      <acme:menu-suboption code="master.menu.anonymous.ales-bulletin.list" action="/anonymous/ales-bulletin/list"/>
-			<acme:menu-suboption code="master.menu.anonymous.ales-bulletin.create" action="/anonymous/ales-bulletin/create"/>
+			<acme:menu-suboption code="master.menu.anonymous.bulletin.ales.create" action="/anonymous/ales-bulletin/create"/>
+      		<acme:menu-suboption code="master.menu.anonymous.bulletin.ales.list" action="/anonymous/ales-bulletin/list"/>
+    		<acme:menu-separator/>
+    		<acme:menu-suboption code="master.menu.anonymous.bulletin.bonacini.create" action="/anonymous/bonacini-bulletin/create"/>
+			<acme:menu-suboption code="master.menu.anonymous.bulletin.bonacini.list" action="/anonymous/bonacini-bulletin/list"/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.anonymous.bulletin.fernandez.create" action="/anonymous/fernandez-bulletin/create"/>
+			<acme:menu-suboption code="master.menu.anonymous.bulletin.fernandez.list" action="/anonymous/fernandez-bulletin/list"/>
+	      	<acme:menu-separator/>
+	      	<acme:menu-suboption code="master.menu.anonymous.bulletin.toledo.create" action="/anonymous/toledo-bulletin/create"/>
+      		<acme:menu-suboption code="master.menu.anonymous.bulletin.toledo.list" action="/anonymous/toledo-bulletin/list"/>
+      		
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">

@@ -8,13 +8,13 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-anonymous.fernandezBulletin.form.label.author = Autor:
-anonymous.fernandezBulletin.form.label.favouriteSong = Canción favorita:
-anonymous.fernandezBulletin.form.label.text = Texto:
-anonymous.fernandezBulletin.form.button.create = Crear
-anonymous.fernandezBulletin.form.button.return = Volver
+anonymous.bulletin.fernandez.form.label.author 			= Autor:
+anonymous.bulletin.fernandez.form.label.favourite-song 	= Canción favorita:
+anonymous.bulletin.fernandez.form.label.text 			= Texto:
+anonymous.bulletin.fernandez.form.button.create 		= Crear
+anonymous.bulletin.fernandez.form.button.return 		= Volver
 
-anonymous.fernandezBulletin.list.label.moment = Momento
-anonymous.fernandezBulletin.list.label.author = Autor
-anonymous.fernandezBulletin.list.label.text = Texto
-anonymous.fernandezBulletin.list.label.favouriteSong = Canción favorita
+anonymous.bulletin.fernandez.list.label.moment 			= Momento
+anonymous.bulletin.fernandez.list.label.author 			= Autor
+anonymous.bulletin.fernandez.list.label.text 			= Texto
+anonymous.bulletin.fernandez.list.label.favourite-song 	= Canción favorita

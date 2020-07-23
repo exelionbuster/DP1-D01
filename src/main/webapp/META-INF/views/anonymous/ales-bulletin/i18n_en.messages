@@ -8,13 +8,13 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-anonymous.alesBulletin.form.label.author = Author:
-anonymous.alesBulletin.form.label.luckyNumber = Tell me your lucky number: 
-anonymous.alesBulletin.form.label.text = Text:
-anonymous.alesBulletin.form.button.create = Create
-anonymous.alesBulletin.form.button.return = Return
+anonymous.bulletin.ales.form.label.author 		= Author:
+anonymous.bulletin.ales.form.label.lucky-number = Tell me your lucky number: 
+anonymous.bulletin.ales.form.label.text 		= Text:
+anonymous.bulletin.ales.form.button.create 		= Create
+anonymous.bulletin.ales.form.button.return 		= Return
 
-anonymous.alesBulletin.list.label.moment = Moment
-anonymous.alesBulletin.list.label.author = Author
-anonymous.alesBulletin.list.label.text = Text
-anonymous.alesBulletin.list.label.luckyNumber = Lucky Number: 
+anonymous.bulletin.ales.list.label.moment 		= Moment
+anonymous.bulletin.ales.list.label.author 		= Author
+anonymous.bulletin.ales.list.label.text 		= Text
+anonymous.bulletin.ales.list.label.lucky-number = Lucky Number

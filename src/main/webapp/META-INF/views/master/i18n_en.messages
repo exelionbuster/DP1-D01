@@ -8,9 +8,6 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-master.menu.anonymous.fernandez-bulletin.list = Fernandez's bulletins
-master.menu.anonymous.fernandez-bulletin.create = Create a bulletin for Fernández
-
 # master.banner.welcome #######################################################
 
 master.banner.background = #FFE97F 
@@ -31,18 +28,19 @@ master.menu.sign-out = Sign out
 
 # master.menu.anonymous #######################################################
 
-master.menu.anonymous 						= Anonymous
-master.menu.anonymous.favourite-link-luca 	= Luca's link
-master.menu.anonymous.favourite-link2 		= Alberto's link
-master.menu.anonymous.favourite-link1 		= Manuel's link
-master.menu.anonymous.favourite-link0 		= Adri's link
-master.menu.anonymous.listar-toledo-bulletin = Toledo's bulletins
-master.menu.anonymous.crear-toledo-bulletin = Create a bulletin for Toledo
-master.menu.anonymous.bulletin-bonacini.create	= Create a bulletin for Bonacini
-master.menu.anonymous.bulletin-bonacini.list	= Bonacini's bulletins
-master.menu.anonymous.ales-bulletin.list = Ales's bulletins
-master.menu.anonymous.ales-bulletin.create = Create an Ales's Bulletin
-
+master.menu.anonymous 							= Anonymous
+master.menu.anonymous.favourite-link.adri		= Adri's link
+master.menu.anonymous.favourite-link.alberto	= Alberto's link
+master.menu.anonymous.favourite-link.luca 		= Luca's link
+master.menu.anonymous.favourite-link.manuel		= Manuel's link
+master.menu.anonymous.bulletin.ales.create 		= Create a bulletin for Alés
+master.menu.anonymous.bulletin.ales.list 		= Alés's bulletins
+master.menu.anonymous.bulletin.bonacini.create	= Create a bulletin for Bonacini
+master.menu.anonymous.bulletin.bonacini.list	= Bonacini's bulletins
+master.menu.anonymous.bulletin.fernandez.create = Create a bulletin for Fernández
+master.menu.anonymous.bulletin.fernandez.list 	= Fernández's bulletins
+master.menu.anonymous.bulletin.toledo.create 	= Create a bulletin for Toledo
+master.menu.anonymous.bulletin.toledo.list	 	= Toledo's bulletins
 
 # master.menu.administrator ###################################################
 
