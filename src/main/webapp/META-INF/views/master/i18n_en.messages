@@ -36,6 +36,8 @@ master.menu.anonymous.favourite-link-luca 	= Luca's link
 master.menu.anonymous.favourite-link2 		= Alberto's link
 master.menu.anonymous.favourite-link1 		= Manuel's link
 master.menu.anonymous.favourite-link0 		= Adri's link
+master.menu.anonymous.listar-toledo-bulletin = Toledo's bulletins
+master.menu.anonymous.crear-toledo-bulletin = Create a bulletin for Toledo
 
 # master.menu.administrator ###################################################
 
