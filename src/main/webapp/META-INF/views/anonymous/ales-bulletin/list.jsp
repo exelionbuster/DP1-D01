@@ -16,9 +16,9 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:list readonly="true">
-	<acme:list-column code="anonymous.alesBulletin.list.label.moment" path="moment" width="20%"/>
-	<acme:list-column code="anonymous.alesBulletin.list.label.author" path="author" width="20%"/>
-	<acme:list-column code="anonymous.alesBulletin.list.label.luckyNumber" path="luckyNumber" width="20%"/>	
-	<acme:list-column code="anonymous.alesBulletin.list.label.text" path="text" width="40%"/>
+	<acme:list-column code="anonymous.bulletin.ales.list.label.moment" path="moment" width="20%"/>
+	<acme:list-column code="anonymous.bulletin.ales.list.label.author" path="author" width="20%"/>
+	<acme:list-column code="anonymous.bulletin.ales.list.label.lucky-number" path="luckyNumber" width="20%"/>	
+	<acme:list-column code="anonymous.bulletin.ales.list.label.text" path="text" width="40%"/>
 	
 </acme:list>

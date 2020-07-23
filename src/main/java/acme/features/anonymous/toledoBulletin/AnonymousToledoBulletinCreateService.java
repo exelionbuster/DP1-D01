@@ -56,9 +56,6 @@ public class AnonymousToledoBulletinCreateService implements AbstractCreateServi
 		moment = new Date(System.currentTimeMillis() - 1);
 
 		res = new ToledoBulletin();
-		res.setAuthor("Alberto");
-		res.setText("Inicialización");
-		res.setEmail("unemail@inicial");
 		res.setMoment(moment);
 
 		return res;

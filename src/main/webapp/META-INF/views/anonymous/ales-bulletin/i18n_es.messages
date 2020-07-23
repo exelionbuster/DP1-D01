@@ -9,13 +9,13 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-anonymous.alesBulletin.form.label.author = Autor:
-anonymous.alesBulletin.form.label.luckyNumber = Escribe tu numero de la suerte: 
-anonymous.alesBulletin.form.label.text = Texto:
-anonymous.alesBulletin.form.button.create = Crear
-anonymous.alesBulletin.form.button.return = Volver
+anonymous.bulletin.ales.form.label.author 		= Autor:
+anonymous.bulletin.ales.form.label.lucky-number 	= Dime tu número de la suerte: 
+anonymous.bulletin.ales.form.label.text 		= Texto:
+anonymous.bulletin.ales.form.button.create 		= Crear
+anonymous.bulletin.ales.form.button.return 		= Volver
 
-anonymous.alesBulletin.list.label.moment = Momento
-anonymous.alesBulletin.list.label.author = Autor
-anonymous.alesBulletin.list.label.text = Texto
-anonymous.alesBulletin.list.label.luckyNumber = Numero de la suerte
+anonymous.bulletin.ales.list.label.moment 		= Momento
+anonymous.bulletin.ales.list.label.author 		= Autor
+anonymous.bulletin.ales.list.label.text 		= Texto
+anonymous.bulletin.ales.list.label.lucky-number = Número de la suerte

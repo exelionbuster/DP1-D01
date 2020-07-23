@@ -57,9 +57,6 @@ public class AnonymousBonaciniBulletinCreateService implements AbstractCreateSer
 
 		moment = new Date(System.currentTimeMillis() - 1);
 		result = new BonaciniBulletin();
-		result.setAuthor("Luca");
-		result.setCity("Sevilla");
-		result.setText("Texto");
 		result.setMoment(moment);
 
 		return result;

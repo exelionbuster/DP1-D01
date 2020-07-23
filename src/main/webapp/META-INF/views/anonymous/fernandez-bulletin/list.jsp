@@ -17,10 +17,10 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:list readonly="true">
-	<acme:list-column code="anonymous.fernandezBulletin.list.label.moment" path="moment" width="20%"/>
-	<acme:list-column code="anonymous.fernandezBulletin.list.label.author" path="author" width="20%"/>
-	<acme:list-column code="anonymous.fernandezBulletin.list.label.favouriteSong" path="favouriteSong" width="20%"/>	
-	<acme:list-column code="anonymous.fernandezBulletin.list.label.text" path="text" width="40%"/>
+	<acme:list-column code="anonymous.bulletin.fernandez.list.label.moment" path="moment" width="20%"/>
+	<acme:list-column code="anonymous.bulletin.fernandez.list.label.author" path="author" width="20%"/>
+	<acme:list-column code="anonymous.bulletin.fernandez.list.label.favourite-song" path="favouriteSong" width="20%"/>	
+	<acme:list-column code="anonymous.bulletin.fernandez.list.label.text" path="text" width="40%"/>
 	
 </acme:list>
 
