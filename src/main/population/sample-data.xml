@@ -83,6 +83,27 @@
 		<property name="text" value="My name is Sasasesa... Sasasegawa Sasami!"/>
 		<property name="city" value="Keyverse"/>
 	</bean>
-
+  
+  <!-- AlesBulletins -->
+  <bean id="alesBulletin01" class="acme.entities.bulletins.AlesBulletin" >
+    <property name="moment" value="2002/04/20 16:00"/>
+    <property name="author" value="Manuel Ales"/>
+    <property name="text" value="Hola Mundo"/>
+    <property name="luckyNumber" value="2"/>
+  </bean>
+    
+	<bean id="alesBulletin02" class="acme.entities.bulletins.AlesBulletin" >
+    <property name="moment" value="2002/04/21 16:00"/>
+    <property name="author" value="Master Chief"/>
+    <property name="text" value="I love you Cortana"/>
+    <property name="luckyNumber" value="117"/>
+  </bean>
+    
+  <bean id="alesBulletin03" class="acme.entities.bulletins.AlesBulletin" >
+    <property name="moment" value="2002/04/22 16:00"/>
+    <property name="author" value="Spike Spiegel"/>
+    <property name="text" value="La vida es como un juego de cartas, unas veces se gana y otras se pierde."/>
+    <property name="luckyNumber" value="27"/>
+  </bean>
 
 </beans>
