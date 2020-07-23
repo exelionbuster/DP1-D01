@@ -28,6 +28,8 @@
 			<acme:menu-suboption code="master.menu.anonymous.fernandez-bulletin.create" action="/anonymous/fernandez-bulletin/create"/>
       <acme:menu-suboption code="master.menu.anonymous.listar-toledo-bulletin" action="/anonymous/toledo-bulletin/list"/>
       <acme:menu-suboption code="master.menu.anonymous.crear-toledo-bulletin" action="/anonymous/toledo-bulletin/create"/>
+      <acme:menu-suboption code="master.menu.anonymous.bulletin-bonacini.create" action="/anonymous/bonacini-bulletin/create"/>
+			<acme:menu-suboption code="master.menu.anonymous.bulletin-bonacini.list" action="/anonymous/bonacini-bulletin/list"/>
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">

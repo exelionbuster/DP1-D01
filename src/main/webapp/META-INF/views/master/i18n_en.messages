@@ -38,6 +38,8 @@ master.menu.anonymous.favourite-link1 		= Manuel's link
 master.menu.anonymous.favourite-link0 		= Adri's link
 master.menu.anonymous.listar-toledo-bulletin = Toledo's bulletins
 master.menu.anonymous.crear-toledo-bulletin = Create a bulletin for Toledo
+master.menu.anonymous.bulletin-bonacini.create	= Create a bulletin for Bonacini
+master.menu.anonymous.bulletin-bonacini.list	= Bonacini's bulletins
 
 # master.menu.administrator ###################################################
 
