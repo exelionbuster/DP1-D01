@@ -66,6 +66,7 @@ CREATE TABLE `ales_bulletin` (
 
 LOCK TABLES `ales_bulletin` WRITE;
 /*!40000 ALTER TABLE `ales_bulletin` DISABLE KEYS */;
+INSERT INTO `ales_bulletin` VALUES (15,0,'Manuel Ales','2','2002-04-20 14:00:00.000000','Hola Mundo'),(16,0,'Master Chief','117','2002-04-21 14:00:00.000000','I love you Cortana'),(17,0,'Spike Spiegel','27','2002-04-22 14:00:00.000000','La vida es como un juego de cartas, unas veces se gana y otras se pierde.');
 /*!40000 ALTER TABLE `ales_bulletin` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -147,6 +148,7 @@ CREATE TABLE `bonacini_bulletin` (
 
 LOCK TABLES `bonacini_bulletin` WRITE;
 /*!40000 ALTER TABLE `bonacini_bulletin` DISABLE KEYS */;
+INSERT INTO `bonacini_bulletin` VALUES (11,0,'Emiya Shirou','Fuyuki','2002-04-20 14:00:00.000000','People die if they\'re killed...'),(12,0,'Luca Bonacini','Planet Usamin','2014-04-02 12:00:00.000000','I am eternally 17 (◕‿◕✿)'),(13,0,'Suzumiya Haruhi','Tokyo','2007-10-23 20:37:00.000000','All ships, open fire! Go out there and burn the enemy leader with all the fires of hell!'),(14,0,'Sasasegawa Sasami','Keyverse','2011-05-13 10:45:00.000000','My name is Sasasesa... Sasasegawa Sasami!');
 /*!40000 ALTER TABLE `bonacini_bulletin` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -202,6 +204,7 @@ CREATE TABLE `fernandez_bulletin` (
 
 LOCK TABLES `fernandez_bulletin` WRITE;
 /*!40000 ALTER TABLE `fernandez_bulletin` DISABLE KEYS */;
+INSERT INTO `fernandez_bulletin` VALUES (9,0,'Espartaco','POP SMOKE - DIOR','2020-05-05 13:45:00.000000','It\'s so good!'),(10,0,'Lagarto Juancho','JACKBOYS, Pop Smoke, Travis Scott - GATTI','2020-06-05 15:40:00.000000','Good song!');
 /*!40000 ALTER TABLE `fernandez_bulletin` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -223,7 +226,7 @@ CREATE TABLE `hibernate_sequence` (
 
 LOCK TABLES `hibernate_sequence` WRITE;
 /*!40000 ALTER TABLE `hibernate_sequence` DISABLE KEYS */;
-INSERT INTO `hibernate_sequence` VALUES (6);
+INSERT INTO `hibernate_sequence` VALUES (18);
 /*!40000 ALTER TABLE `hibernate_sequence` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -279,6 +282,7 @@ CREATE TABLE `toledo_bulletin` (
 
 LOCK TABLES `toledo_bulletin` WRITE;
 /*!40000 ALTER TABLE `toledo_bulletin` DISABLE KEYS */;
+INSERT INTO `toledo_bulletin` VALUES (6,0,'Alberto Toledo Mayorga','email@prueba1.com','2020-07-22 15:46:00.000000','Estoy feliz, prueba 1'),(7,0,'Alberto Toledo Mayorga','email@prueba2.com','2020-07-22 15:47:00.000000','Estoy muy feliz, prueba 2'),(8,0,'Alberto Toledo Mayorga','email@prueba3.com','2020-07-22 15:48:00.000000','Estoy muy, pero que muy feliz, prueba 3');
 /*!40000 ALTER TABLE `toledo_bulletin` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -309,7 +313,7 @@ CREATE TABLE `user_account` (
 
 LOCK TABLES `user_account` WRITE;
 /*!40000 ALTER TABLE `user_account` DISABLE KEYS */;
-INSERT INTO `user_account` VALUES (1,0,_binary '\0','john.doe@acme.com','John','Doe','$2a$05$CYjUyz4lI/Vo.c2UYZ4iHeAgDm3LgS3T2X4hxeQLt/2mbKG7P6aE2','anonymous'),(3,0,_binary '','administrator@acme.com','Administrator','Acme.com','$2a$05$DBVMMhCWHMlfCEpVHeVAG.l8DbtO5WtgEIMHj8b/IH7Ij695RwJ7W','administrator');
+INSERT INTO `user_account` VALUES (1,0,_binary '\0','john.doe@acme.com','John','Doe','$2a$05$2vd4Y.ANnj9CKStWZX/4dejsI7Ub0LQG4yjW5IihV0ayF9DRAoIxy','anonymous'),(3,0,_binary '','administrator@acme.com','Administrator','Acme.com','$2a$05$NR8Gg6nFXVBFCz/Qqh4L4eCQekjHbHAdovGt.r8.a6sasaL8EEl9i','administrator');
 /*!40000 ALTER TABLE `user_account` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -322,4 +326,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-08-04 18:00:51
+-- Dump completed on 2020-09-01  0:18:05
